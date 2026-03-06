@@ -17,13 +17,14 @@ import java.net.ServerSocket;
 import java.net.Socket;
 public class ServerHolaTcp {
 
-    public static void main(String[] args) {
+   public static void main(String[] args) {
         int port = 5002;
         ServerSocket server;
         try {
             // TODO code application logic here
             server = new ServerSocket(port);
             System.out.println("Se inicio el servidor con éxito");
+            while (true) {
             Socket client;
             PrintStream toClient;
             client = server.accept(); //conexion entre cliente y servidor para comunicacion bidireccional
@@ -33,7 +34,9 @@ public class ServerHolaTcp {
             System.out.println("El cliente envio el mensaje:" + recibido);
             String invertido = new StringBuilder(recibido).reverse().toString();
             toClient = new PrintStream(client.getOutputStream());
-            toClient.println("Candena invertida" + invertido);
+            toClient.println("Candena invertida " + invertido);
+            }
+            
         } catch (IOException ex) {
             System.out.print(ex.getMessage());
         }
