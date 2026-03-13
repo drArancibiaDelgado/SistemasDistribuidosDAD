@@ -1,0 +1,7 @@
+com\mycompany\hola\rmi\Calculadora.class
+com\mycompany\hola\rmi\Sumatoria.class
+com\mycompany\hola\rmi\Fibonacci.class
+com\mycompany\hola\rmi\Factorial.class
+com\mycompany\hola\rmi\Servidor.class
+com\mycompany\hola\rmi\ICalcular.class
+com\mycompany\hola\rmi\Cliente.class
