@@ -1,0 +1,9 @@
+com\mycompany\emision_becas_ali\ServidorFinanciero.class
+com\mycompany\emision_becas_ali\BienestarInterface.class
+com\mycompany\emision_becas_ali\Nota.class
+com\mycompany\emision_becas_ali\ClienteUniversitario.class
+com\mycompany\emision_becas_ali\ServidorBienestar.class
+com\mycompany\emision_becas_ali\ServidorUniversitario.class
+com\mycompany\emision_becas_ali\ServidorUniversitarioInterface.class
+com\mycompany\emision_becas_ali\RespuestaBeca.class
+com\mycompany\emision_becas_ali\ServidorSegip.class
