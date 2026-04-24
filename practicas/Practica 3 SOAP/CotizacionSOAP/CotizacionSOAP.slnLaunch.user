@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "Nuevo perfil",
+    "Projects": [
+      {
+        "Path": "CotizacionSOAP\\CotizacionSOAP.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "ClienteCotizacion\\ClienteCotizacion.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

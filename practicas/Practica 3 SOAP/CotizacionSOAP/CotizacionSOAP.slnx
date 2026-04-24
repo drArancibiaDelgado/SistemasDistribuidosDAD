@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="ClienteCotizacion/ClienteCotizacion.csproj" Id="649bff22-9a5d-486b-8adb-9160d06b1ad3">
+    <BuildDependency Project="CotizacionSOAP/CotizacionSOAP.csproj" />
+  </Project>
+  <Project Path="CotizacionSOAP/CotizacionSOAP.csproj" Id="d0a9d97b-d5b3-4cfd-966c-8f643e143bf4" />
+</Solution>

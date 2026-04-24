@@ -1,0 +1,10 @@
+C:\proyectos visual s\CotizacionSOAP\ClienteCotizacion\bin\Debug\ClienteCotizacion.exe.config
+C:\proyectos visual s\CotizacionSOAP\ClienteCotizacion\bin\Debug\ClienteCotizacion.exe
+C:\proyectos visual s\CotizacionSOAP\ClienteCotizacion\bin\Debug\ClienteCotizacion.pdb
+C:\proyectos visual s\CotizacionSOAP\ClienteCotizacion\obj\Debug\ClienteCotizacion.csproj.AssemblyReference.cache
+C:\proyectos visual s\CotizacionSOAP\ClienteCotizacion\obj\Debug\ClienteCotizacion.Form1.resources
+C:\proyectos visual s\CotizacionSOAP\ClienteCotizacion\obj\Debug\ClienteCotizacion.Properties.Resources.resources
+C:\proyectos visual s\CotizacionSOAP\ClienteCotizacion\obj\Debug\ClienteCotizacion.csproj.GenerateResource.cache
+C:\proyectos visual s\CotizacionSOAP\ClienteCotizacion\obj\Debug\ClienteCotizacion.csproj.CoreCompileInputs.cache
+C:\proyectos visual s\CotizacionSOAP\ClienteCotizacion\obj\Debug\ClienteCotizacion.exe
+C:\proyectos visual s\CotizacionSOAP\ClienteCotizacion\obj\Debug\ClienteCotizacion.pdb

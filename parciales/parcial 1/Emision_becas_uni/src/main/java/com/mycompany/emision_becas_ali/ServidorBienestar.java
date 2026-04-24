@@ -24,40 +24,19 @@ public class ServidorBienestar extends UnicastRemoteObject implements BienestarI
     }
     
     @Override
-    public ArrayList<Nota> obtenerHistorial(String ci) throws RemoteException {
-        System.out.println("BIENESTAR: historial " + ci);
-        
-        Map<String, ArrayList<Nota>> historiales = new HashMap<>();
-        
-  
-        ArrayList<Nota> ana = new ArrayList<>();
-        ana.add(new Nota("Matemáticas", 90));
-        ana.add(new Nota("Física", 85));
-        ana.add(new Nota("Química", 80));
-        historiales.put("1234567", ana);
-        
-        
-        ArrayList<Nota> juan = new ArrayList<>();
-        juan.add(new Nota("Matemáticas", 60));
-        juan.add(new Nota("Física", 55));
-        juan.add(new Nota("Química", 65));
-        historiales.put("7654321", juan);
-        
-      
-        ArrayList<Nota> maria = new ArrayList<>();
-        maria.add(new Nota("Historia", 92));
-        maria.add(new Nota("Literatura", 88));
-        maria.add(new Nota("Biología", 85));
-        historiales.put("1122334", maria);
-        
-   
-        historiales.put("4433221", new ArrayList<>());
-        
-        
-        historiales.put("5566778", new ArrayList<>());
-        
-        return historiales.getOrDefault(ci, new ArrayList<>());
+public ArrayList<Nota> obtenerHistorial(String ci) throws RemoteException {
+    System.out.println("BIENESTAR: historial " + ci);
+
+    ArrayList<Nota> ana = new ArrayList<>();
+    ana.add(new Nota("Matemáticas", 90));
+    ana.add(new Nota("Física", 85));
+    ana.add(new Nota("Química", 80));
+
+    if ("1234567".equals(ci)) {
+        return ana;
     }
+    return new ArrayList<>();
+}
     
     public static void main(String[] args) {
         try {

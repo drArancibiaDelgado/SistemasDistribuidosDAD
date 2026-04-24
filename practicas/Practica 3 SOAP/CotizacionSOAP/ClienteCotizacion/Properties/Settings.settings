@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ClienteCotizacion.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ClienteCotizacion_ReferenciaLaboratorio_ServicioCotizacion" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://localhost:44335/WebService1.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
