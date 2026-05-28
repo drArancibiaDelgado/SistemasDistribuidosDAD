@@ -1,0 +1,10 @@
+D:\SistemasDistribuidosDAD\Trabajos en clases\trabajo en clases 8\Comercio 2\Comercio 2\obj\Debug\Comercio 2.csproj.AssemblyReference.cache
+D:\SistemasDistribuidosDAD\Trabajos en clases\trabajo en clases 8\Comercio 2\Comercio 2\obj\Debug\Comercio_2.Properties.Resources.resources
+D:\SistemasDistribuidosDAD\Trabajos en clases\trabajo en clases 8\Comercio 2\Comercio 2\obj\Debug\Comercio 2.csproj.GenerateResource.cache
+D:\SistemasDistribuidosDAD\Trabajos en clases\trabajo en clases 8\Comercio 2\Comercio 2\obj\Debug\Comercio 2.csproj.CoreCompileInputs.cache
+D:\SistemasDistribuidosDAD\Trabajos en clases\trabajo en clases 8\Comercio 2\Comercio 2\bin\Debug\Comercio 2.exe.config
+D:\SistemasDistribuidosDAD\Trabajos en clases\trabajo en clases 8\Comercio 2\Comercio 2\bin\Debug\Comercio 2.exe
+D:\SistemasDistribuidosDAD\Trabajos en clases\trabajo en clases 8\Comercio 2\Comercio 2\bin\Debug\Comercio 2.pdb
+D:\SistemasDistribuidosDAD\Trabajos en clases\trabajo en clases 8\Comercio 2\Comercio 2\obj\Debug\Comercio_2.Form1.resources
+D:\SistemasDistribuidosDAD\Trabajos en clases\trabajo en clases 8\Comercio 2\Comercio 2\obj\Debug\Comercio 2.exe
+D:\SistemasDistribuidosDAD\Trabajos en clases\trabajo en clases 8\Comercio 2\Comercio 2\obj\Debug\Comercio 2.pdb
