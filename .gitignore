@@ -19,6 +19,24 @@
 *.tar.gz
 *.rar
 
+# Carpetas de Visual Studio
+.vs/
+bin/
+obj/
+
+# Carpetas de Laravel
+/vendor/
+/node_modules/
+/storage/*.key
+/.env
+
+# Carpetas de Node.js
+node_modules/
+
+# Logs y bases de datos locales
+*.log
+*.sqlite
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*

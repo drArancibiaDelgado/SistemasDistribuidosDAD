@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="1301da46-95af-4829-a596-a5915f825efc" activeEnvironment="Default" name="TestCotizacionSOAP" resourceRoot="" soapui-version="5.9.1" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:WsdlInterface" id="8501eccf-4d54-435f-9141-75d1c6ff1a3f" wsaVersion="NONE" name="ServicioCotizacionSoap" type="wsdl" bindingName="{http://tempuri.org/CotizacionSOAP/}ServicioCotizacionSoap" soapVersion="1_1" anonymous="optional" definition="https://localhost:44335/WebService1.asmx?WSDL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>https://localhost:44335/WebService1.asmx</con:endpoint></con:endpoints><con:operation id="5b8c1826-78b0-4865-a2d4-8d6c4da7c706" isOneWay="false" action="http://tempuri.org/CotizacionSOAP/obtenerCotizacion" name="obtenerCotizacion" bindingOperationName="obtenerCotizacion" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="e09d07cb-e95b-425d-9082-e223ffa7a473" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://localhost:44335/WebService1.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" 
+                  xmlns:tem="http://tempuri.org/CotizacionSOAP/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:obtenerCotizacion>
+         <tem:fecha>2025-04-07</tem:fecha>
+      </tem:obtenerCotizacion>
+   </soapenv:Body>
+</soapenv:Envelope>
+]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/CotizacionSOAP/obtenerCotizacion"/><con:wsrmConfig version="1.2"/></con:call></con:operation><con:operation id="16382397-9d52-4189-8981-28824680f8a9" isOneWay="false" action="http://tempuri.org/CotizacionSOAP/registrarCotizacion" name="registrarCotizacion" bindingOperationName="registrarCotizacion" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="ce4f67ce-1f1f-4572-b535-5b9cd6c57185" name="Request 1"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>https://localhost:44335/WebService1.asmx</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" 
+                  xmlns:tem="http://tempuri.org/CotizacionSOAP/">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <tem:registrarCotizacion>
+         <tem:fecha>2025-04-15</tem:fecha>
+         <tem:monto>9.50</tem:monto>
+      </tem:registrarCotizacion>
+   </soapenv:Body>
+</soapenv:Envelope>
+]]></con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/CotizacionSOAP/registrarCotizacion"/><con:wsrmConfig version="1.2"/></con:call></con:operation></con:interface><con:interface xsi:type="con:WsdlInterface" id="abb73f0b-a099-4612-88ca-7aaa376a9090" wsaVersion="NONE" name="ServicioCotizacionSoap12" type="wsdl" bindingName="{http://tempuri.org/CotizacionSOAP/}ServicioCotizacionSoap12" soapVersion="1_2" anonymous="optional" definition="https://localhost:44335/WebService1.asmx?WSDL" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="https://localhost:44335/WebService1.asmx?WSDL"><con:part><con:url>https://localhost:44335/WebService1.asmx?WSDL</con:url><con:content><![CDATA[<wsdl:definitions targetNamespace="http://tempuri.org/CotizacionSOAP/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/CotizacionSOAP/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/CotizacionSOAP/">
+      <s:element name="obtenerCotizacion">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="fecha" type="s:string"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="obtenerCotizacionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="obtenerCotizacionResult" type="s:string"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="registrarCotizacion">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="fecha" type="s:string"/>
+            <s:element minOccurs="1" maxOccurs="1" name="monto" type="s:decimal"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="registrarCotizacionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="registrarCotizacionResult" type="s:string"/>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string"/>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="obtenerCotizacionSoapIn">
+    <wsdl:part name="parameters" element="tns:obtenerCotizacion"/>
+  </wsdl:message>
+  <wsdl:message name="obtenerCotizacionSoapOut">
+    <wsdl:part name="parameters" element="tns:obtenerCotizacionResponse"/>
+  </wsdl:message>
+  <wsdl:message name="registrarCotizacionSoapIn">
+    <wsdl:part name="parameters" element="tns:registrarCotizacion"/>
+  </wsdl:message>
+  <wsdl:message name="registrarCotizacionSoapOut">
+    <wsdl:part name="parameters" element="tns:registrarCotizacionResponse"/>
+  </wsdl:message>
+  <wsdl:message name="obtenerCotizacionHttpGetIn">
+    <wsdl:part name="fecha" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="obtenerCotizacionHttpGetOut">
+    <wsdl:part name="Body" element="tns:string"/>
+  </wsdl:message>
+  <wsdl:message name="registrarCotizacionHttpGetIn">
+    <wsdl:part name="fecha" type="s:string"/>
+    <wsdl:part name="monto" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="registrarCotizacionHttpGetOut">
+    <wsdl:part name="Body" element="tns:string"/>
+  </wsdl:message>
+  <wsdl:message name="obtenerCotizacionHttpPostIn">
+    <wsdl:part name="fecha" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="obtenerCotizacionHttpPostOut">
+    <wsdl:part name="Body" element="tns:string"/>
+  </wsdl:message>
+  <wsdl:message name="registrarCotizacionHttpPostIn">
+    <wsdl:part name="fecha" type="s:string"/>
+    <wsdl:part name="monto" type="s:string"/>
+  </wsdl:message>
+  <wsdl:message name="registrarCotizacionHttpPostOut">
+    <wsdl:part name="Body" element="tns:string"/>
+  </wsdl:message>
+  <wsdl:portType name="ServicioCotizacionSoap">
+    <wsdl:operation name="obtenerCotizacion">
+      <wsdl:documentation>Obtiene la cotización según la fecha</wsdl:documentation>
+      <wsdl:input message="tns:obtenerCotizacionSoapIn"/>
+      <wsdl:output message="tns:obtenerCotizacionSoapOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="registrarCotizacion">
+      <wsdl:documentation>Registra una nueva cotización</wsdl:documentation>
+      <wsdl:input message="tns:registrarCotizacionSoapIn"/>
+      <wsdl:output message="tns:registrarCotizacionSoapOut"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ServicioCotizacionHttpGet">
+    <wsdl:operation name="obtenerCotizacion">
+      <wsdl:documentation>Obtiene la cotización según la fecha</wsdl:documentation>
+      <wsdl:input message="tns:obtenerCotizacionHttpGetIn"/>
+      <wsdl:output message="tns:obtenerCotizacionHttpGetOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="registrarCotizacion">
+      <wsdl:documentation>Registra una nueva cotización</wsdl:documentation>
+      <wsdl:input message="tns:registrarCotizacionHttpGetIn"/>
+      <wsdl:output message="tns:registrarCotizacionHttpGetOut"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="ServicioCotizacionHttpPost">
+    <wsdl:operation name="obtenerCotizacion">
+      <wsdl:documentation>Obtiene la cotización según la fecha</wsdl:documentation>
+      <wsdl:input message="tns:obtenerCotizacionHttpPostIn"/>
+      <wsdl:output message="tns:obtenerCotizacionHttpPostOut"/>
+    </wsdl:operation>
+    <wsdl:operation name="registrarCotizacion">
+      <wsdl:documentation>Registra una nueva cotización</wsdl:documentation>
+      <wsdl:input message="tns:registrarCotizacionHttpPostIn"/>
+      <wsdl:output message="tns:registrarCotizacionHttpPostOut"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ServicioCotizacionSoap" type="tns:ServicioCotizacionSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="obtenerCotizacion">
+      <soap:operation soapAction="http://tempuri.org/CotizacionSOAP/obtenerCotizacion" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="registrarCotizacion">
+      <soap:operation soapAction="http://tempuri.org/CotizacionSOAP/registrarCotizacion" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServicioCotizacionSoap12" type="tns:ServicioCotizacionSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="obtenerCotizacion">
+      <soap12:operation soapAction="http://tempuri.org/CotizacionSOAP/obtenerCotizacion" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="registrarCotizacion">
+      <soap12:operation soapAction="http://tempuri.org/CotizacionSOAP/registrarCotizacion" style="document"/>
+      <wsdl:input>
+        <soap12:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServicioCotizacionHttpGet" type="tns:ServicioCotizacionHttpGet">
+    <http:binding verb="GET"/>
+    <wsdl:operation name="obtenerCotizacion">
+      <http:operation location="/obtenerCotizacion"/>
+      <wsdl:input>
+        <http:urlEncoded/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="registrarCotizacion">
+      <http:operation location="/registrarCotizacion"/>
+      <wsdl:input>
+        <http:urlEncoded/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="ServicioCotizacionHttpPost" type="tns:ServicioCotizacionHttpPost">
+    <http:binding verb="POST"/>
+    <wsdl:operation name="obtenerCotizacion">
+      <http:operation location="/obtenerCotizacion"/>
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded"/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="registrarCotizacion">
+      <http:operation location="/registrarCotizacion"/>
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded"/>
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="ServicioCotizacion">
+    <wsdl:port name="ServicioCotizacionSoap" binding="tns:ServicioCotizacionSoap">
+      <soap:address location="https://localhost:44335/WebService1.asmx"/>
+    </wsdl:port>
+    <wsdl:port name="ServicioCotizacionSoap12" binding="tns:ServicioCotizacionSoap12">
+      <soap12:address location="https://localhost:44335/WebService1.asmx"/>
+    </wsdl:port>
+    <wsdl:port name="ServicioCotizacionHttpGet" binding="tns:ServicioCotizacionHttpGet">
+      <http:address location="https://localhost:44335/WebService1.asmx"/>
+    </wsdl:port>
+    <wsdl:port name="ServicioCotizacionHttpPost" binding="tns:ServicioCotizacionHttpPost">
+      <http:address location="https://localhost:44335/WebService1.asmx"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>https://localhost:44335/WebService1.asmx</con:endpoint></con:endpoints><con:operation id="38139741-966a-4482-8e01-edba7ca080b6" isOneWay="false" action="http://tempuri.org/CotizacionSOAP/obtenerCotizacion" name="obtenerCotizacion" bindingOperationName="obtenerCotizacion" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="5d409a9c-6475-4cda-b838-6c4cc158ea27" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://localhost:44335/WebService1.asmx</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:cot="http://tempuri.org/CotizacionSOAP/">\r
+   <soap:Header/>\r
+   <soap:Body>\r
+      <cot:obtenerCotizacion>\r
+         <!--Optional:-->\r
+         <cot:fecha>?</cot:fecha>\r
+      </cot:obtenerCotizacion>\r
+   </soap:Body>\r
+</soap:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/CotizacionSOAP/ServicioCotizacionSoap/obtenerCotizacionRequest"/></con:call></con:operation><con:operation id="a3fa950b-ce95-43bd-b16f-3a6e465efa16" isOneWay="false" action="http://tempuri.org/CotizacionSOAP/registrarCotizacion" name="registrarCotizacion" bindingOperationName="registrarCotizacion" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="10c9a2b0-453c-4844-aa45-978f107eaaa5" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>https://localhost:44335/WebService1.asmx</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:cot="http://tempuri.org/CotizacionSOAP/">\r
+   <soap:Header/>\r
+   <soap:Body>\r
+      <cot:registrarCotizacion>\r
+         <!--Optional:-->\r
+         <cot:fecha>?</cot:fecha>\r
+         <cot:monto>?</cot:monto>\r
+      </cot:registrarCotizacion>\r
+   </soap:Body>\r
+</soap:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://tempuri.org/CotizacionSOAP/ServicioCotizacionSoap/registrarCotizacionRequest"/></con:call></con:operation></con:interface><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/></con:soapui-project>
