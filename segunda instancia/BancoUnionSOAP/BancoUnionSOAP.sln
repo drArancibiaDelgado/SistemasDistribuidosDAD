@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37411.7 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoUnionSOAP", "BancoUnionSOAP\BancoUnionSOAP.csproj", "{84E89E02-2822-46EB-970B-A2E9D80549A6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84E89E02-2822-46EB-970B-A2E9D80549A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84E89E02-2822-46EB-970B-A2E9D80549A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84E89E02-2822-46EB-970B-A2E9D80549A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84E89E02-2822-46EB-970B-A2E9D80549A6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6F945337-769C-46F1-A184-B3812604F064}
+	EndGlobalSection
+EndGlobal

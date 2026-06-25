@@ -1,0 +1,18 @@
+//get http://localhost/bnb_rest/cuenta.php?nro_cuenta=12345 devluelve saldo
+// devuelve todas las cuentas http://localhost/bnb_rest/cuenta.php
+// patch http://localhost/bnb_rest/cuenta.php
+// en su body 
+//{
+  //  "nro_cuenta": "12345",
+  //  "operacion": "restar",
+  //  "monto": 50
+//}
+
+// post http://localhost/bnb_rest/cuenta.php
+//para crear una cuenta nueva
+//Body : {"nro_cuenta": "99999", "moneda": "Bs", "saldo": 1000}
+
+// delete http://localhost/bnb_rest/cuenta.php 
+//{
+  //  "nro_cuenta": "99999"
+//}
